@@ -33,5 +33,5 @@ end
 
         counter += 1
       end
-      return new_array.to_s
+      return new_array
     end
