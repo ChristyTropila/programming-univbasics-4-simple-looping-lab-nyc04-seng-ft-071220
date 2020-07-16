@@ -27,11 +27,11 @@ end
 
     def return_string_array (array)
       counter =0
-      new_array=[].to_s
+      new_array=[]
       while counter < array.length do
         new_array << array[counter]
 
         counter += 1
       end
-      return new_array
+      return new_array.to_s
     end
